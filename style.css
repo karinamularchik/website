@@ -1,0 +1,65 @@
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        header {
+            background-color: aqua;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        footer {
+            background-color: blueviolet;
+        }
+        
+        header a {
+            color: darkorange;
+            text-decoration: darkblue;
+            margin: 0 30px;
+            font-size: 18px;
+            font-family: tahoma;
+        }
+        
+        header button {
+            background-color: darkcyan;
+            color: darkgray;
+            padding: 7px 20px;
+            border-radius: 20px;
+            border: none;
+            transition: 500ms;
+            /* border:2px red solid; */
+        }
+        
+        header button:hover {
+            background-color: darkgreen;
+            transform: scale(1.1);
+        }
+        
+        button a {
+            color: darkgray;
+        }
+        
+        .hero {
+            min-height: 75vh;
+            background-image: linear-gradient(to top, rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.5)), url(fonstola.jpg);
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .hero p {
+            max-width: 700px;
+            color: darkred;
+            font-size: 20px;
+        }
+        
+        h1 {
+            color: darksalmon;
+            margin: 0px;
+        }
