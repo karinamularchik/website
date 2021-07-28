@@ -1,65 +1,137 @@
-        * {
-            padding: 0;
-            margin: 0;
-        }
-        
-        header {
-            background-color: aqua;
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            padding: 20px;
-        }
-        
-        footer {
-            background-color: blueviolet;
-        }
-        
-        header a {
-            color: darkorange;
-            text-decoration: darkblue;
-            margin: 0 30px;
-            font-size: 18px;
-            font-family: tahoma;
-        }
-        
-        header button {
-            background-color: darkcyan;
-            color: darkgray;
-            padding: 7px 20px;
-            border-radius: 20px;
-            border: none;
-            transition: 500ms;
-            /* border:2px red solid; */
-        }
-        
-        header button:hover {
-            background-color: darkgreen;
-            transform: scale(1.1);
-        }
-        
-        button a {
-            color: darkgray;
-        }
-        
-        .hero {
-            min-height: 75vh;
-            background-image: linear-gradient(to top, rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.5)), url(fonstola.jpg);
-            background-size: cover;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-        }
-        
-        .hero p {
-            max-width: 700px;
-            color: darkred;
-            font-size: 20px;
-        }
-        
-        h1 {
-            color: darksalmon;
-            margin: 0px;
-        }
+                                            * {
+                                                padding: 0;
+                                                margin: 0;
+                                            }
+                                            
+                                            h1,
+                                            h2 figcaption {
+                                                font-family: 'Pacifiko', cursive;
+                                            }
+                                            
+                                            header {
+                                                background-color: rgb(226, 123, 221);
+                                                display: flex;
+                                                justify-content: space-around;
+                                                align-items: center;
+                                                padding: 20px;
+                                            }
+                                            
+                                            footer {
+                                                background-color: blueviolet;
+                                                padding: 20px;
+                                            }
+                                            
+                                            header a {
+                                                color: darkorange;
+                                                text-decoration: darkblue;
+                                                margin: 0 30px;
+                                                font-size: 18px;
+                                                font-family: tahoma;
+                                            }
+                                            
+                                            header button {
+                                                background-color: darkcyan;
+                                                color: darkgray;
+                                                padding: 7px 20px;
+                                                border-radius: 20px;
+                                                border: none;
+                                                transition: 500ms;
+                                                /* border:2px red solid; */
+                                            }
+                                            
+                                            header button:hover {
+                                                background-color: darkgreen;
+                                                transform: scale(1.1);
+                                            }
+                                            
+                                            button a {
+                                                color: darkgray;
+                                            }
+                                            
+                                            .hero {
+                                                min-height: 75vh;
+                                                background-image: linear-gradient(to top, rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.5)), url(fonstola.jpg);
+                                                background-size: cover;
+                                                background-position: center;
+                                                display: flex;
+                                                flex-direction: column;
+                                                justify-content: center;
+                                                align-items: center;
+                                                text-align: center;
+                                            }
+                                            
+                                            .hero p {
+                                                max-width: 700px;
+                                                color: darkred;
+                                                font-size: 20px;
+                                            }
+                                            
+                                            h1 {
+                                                color: rgb(236, 129, 93);
+                                                margin: 0px;
+                                            }
+                                            
+                                            .family {
+                                                padding: 50px 20px;
+                                                background-color: crimson;
+                                            }
+                                            
+                                            img {
+                                                max-width: 100%;
+                                            }
+                                            
+                                            .friends {
+                                                display: flex;
+                                                justify-content: space-between;
+                                            }
+                                            
+                                            figure {
+                                                width: 22%;
+                                                background-color: darkgray;
+                                                padding: 37px 15px;
+                                                position: relative;
+                                            }
+                                            
+                                            figcaption {
+                                                position: absolute;
+                                                bottom: 20px;
+                                                color: rgb(10, 3, 56);
+                                                font-size: 20px;
+                                            }
+                                            
+                                            @media(max-width: 530px) {
+                                                header {
+                                                    display: block;
+                                                    text-align: center;
+                                                }
+                                                nav {
+                                                    margin: 25px 0;
+                                                }
+                                                nav a {
+                                                    display: block;
+                                                }
+                                            }
+                                            
+                                            @media(max-width:760px) {
+                                                .friends {
+                                                    flex-wrap: wrap;
+                                                }
+                                                figure {
+                                                    width: 45%;
+                                                }
+                                            }
+                                            
+                                            @media(max-width: 550px) {
+                                                h1 {
+                                                    font-size: 22px;
+                                                }
+                                                .hero p {
+                                                    font-size: 18px;
+                                                }
+                                                figure {
+                                                    width: 70%;
+                                                }
+                                                .friends {
+                                                    justify-content: center;
+                                                }
+                                            }
